@@ -3,7 +3,7 @@ django-pjax |Build Status| |Version|
 
 An improvement of Django-PJAX_: The Django helper for jQuery-PJAX.
 
-What’s PJAX?
+What's PJAX?
 ------------
 
 PJAX is essentially AHAH_ ("Asynchronous HTML and HTTP"), except with
@@ -52,8 +52,8 @@ Usage
 First, read about `how to use jQuery-PJAX`_ and pick one of the
 techniques there.
 
-Next, make sure the views you’re PJAXing are using TemplateResponse_.
-You can’t use Django-PJAX with a normal ``HttpResponse``, only
+Next, make sure the views you're PJAXing are using TemplateResponse_.
+You can't use Django-PJAX with a normal ``HttpResponse``, only
 ``TemplateResponse``.
 
 PJAX decorator
@@ -91,7 +91,7 @@ More formally: if the request is a PJAX request, the template used in
 your ``TemplateResponse`` will be replaced with one with ``-pjax``
 before the file extension. So ``template.html`` becomes
 ``template-pjax.html``, ``my.template.xml`` becomes
-``my.template-pjax.xml``, etc. If there’s no file extension, the
+``my.template-pjax.xml``, etc. If there's no file extension, the
 template name will just be suffixed with ``-pjax``.
 
 You can also manually pick a PJAX template by passing it as an argument
@@ -120,7 +120,7 @@ decorators to define the template for multiple containers:
 Class-based view
 ~~~~~~~~~~~~~~~~
 
-If you’d like to use Django 1.3’s class-based views instead, a PJAX
+If you'd like to use Django 1.3’s class-based views instead, a PJAX
 Mixin class is provided as well. Simply use ``PJAXResponseMixin`` where
 you would normally have used ``TemplateResponseMixin``, and your
 ``template_name`` will be treated the same way as above.
@@ -140,7 +140,7 @@ you want a specific template used for PJAX responses:
         def get(self, request):
             return self.render_to_response({'my': 'context'})
 
-That’s it!
+That's it!
 
 Using Template Extensions
 -------------------------
@@ -177,7 +177,7 @@ you can do so as follows:
     def my_view(request):
         return TemplateResponse(request, "template.html", {'my': 'context'})
 
-Using this approach you don’t need to create many ``*-pjax.html`` files.
+Using this approach you don't need to create many ``*-pjax.html`` files.
 
 If you have a collision with the variable name ``parent`` you can
 specify the context variable to use as the third parameter to pjaxtexd,
