@@ -120,7 +120,7 @@ decorators to define the template for multiple containers:
 Class-based view
 ~~~~~~~~~~~~~~~~
 
-If you'd like to use Django 1.3’s class-based views instead, a PJAX
+If you'd like to use Django 1.3's class-based views instead, a PJAX
 Mixin class is provided as well. Simply use ``PJAXResponseMixin`` where
 you would normally have used ``TemplateResponseMixin``, and your
 ``template_name`` will be treated the same way as above.
