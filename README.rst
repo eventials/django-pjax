@@ -214,8 +214,8 @@ Run the tests:
    :target: https://pypi.python.org/pypi/django-pjax
 
 .. _how to use jQuery-PJAX: https://github.com/defunkt/jquery-pjax
-.. _AHAH: http://www.xfront.com/microformats/AHAH.html
-.. _check out the one defunkt put together: http://pjax.heroku.com/
-.. _TemplateResponse: http://django.me/TemplateResponse
+.. _AHAH: https://www.xfront.com/microformats/AHAH.html
+.. _check out the one defunkt put together: https://pjax.herokuapp.com/
+.. _TemplateResponse: https://docs.djangoproject.com/en/3.0/ref/template-response/
 .. _Django-PJAX: https://github.com/jacobian-archive/django-pjax
-.. _Jacob Kaplan-Moss: http://jacobian.org/
+.. _Jacob Kaplan-Moss: https://jacobian.org/
