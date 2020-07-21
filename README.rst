@@ -209,7 +209,7 @@ Run the tests:
 ``python tests.py``
 
 .. |Build Status| image:: https://github.com/eventials/django-pjax/workflows/tests/badge.svg
-   :target: https://travis-ci.org/eventials/django-pjax
+   :target: https://github.com/eventials/django-pjax/actions?query=workflow%3Atests
 .. |Version| image:: https://img.shields.io/pypi/v/django-pjax.svg
    :target: https://pypi.python.org/pypi/django-pjax
 
